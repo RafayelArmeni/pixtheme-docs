@@ -5,7 +5,7 @@
 
 Event Time is a HubSpot CMS theme for event websites. It gives you everything from the first "save the date" page to the thank-you page after registration.
 
-**Live demo:** [pixtheme.com/event-time-demo](https://www.pixtheme.com/event-time-demo)
+**Live demo:** [pixtheme.com/event-time-demo](https://assets.pixtheme.com/event-time-demo)
 
 ![Five home page layouts](assets/home-layouts.jpg)
 

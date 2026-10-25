@@ -6,7 +6,7 @@ hide:
 
 # Pixtheme documentation
 
-Setup guides for Pixtheme themes on the HubSpot CMS.
+Setup guides for Pixtheme themes and modules on the HubSpot CMS.
 
 <div class="grid cards" markdown>
 
@@ -17,6 +17,14 @@ Setup guides for Pixtheme themes on the HubSpot CMS.
     A complete website for conferences, summits, webinars and meetups.
 
     [Read the docs →](event-time/index.md)
+
+-   **[Smart Comparison Table](smart-comparison-table/index.md)**
+
+    ---
+
+    A free module for comparing pricing plans or products side by side.
+
+    [Read the docs →](smart-comparison-table/index.md)
 
 </div>
 

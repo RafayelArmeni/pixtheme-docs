@@ -1,6 +1,6 @@
 site_name: Pixtheme Docs
 site_url: https://docs.pixtheme.com/
-site_description: Setup guides for Pixtheme HubSpot themes.
+site_description: Setup guides for Pixtheme HubSpot themes and modules.
 copyright: © Pixtheme
 docs_dir: docs
 
@@ -82,3 +82,16 @@ nav:
           - FAQ and troubleshooting: event-time/help/faq.md
           - Support: event-time/help/support.md
           - Changelog: event-time/help/changelog.md
+  - Smart Comparison Table:
+      - Welcome to Smart Comparison Table: smart-comparison-table/index.md
+      - Getting started:
+          - Install the module: smart-comparison-table/getting-started/install.md
+          - Build your table: smart-comparison-table/getting-started/build-your-table.md
+      - Customize:
+          - Table options: smart-comparison-table/customize/table-options.md
+          - Style settings: smart-comparison-table/customize/style.md
+          - Examples: smart-comparison-table/customize/examples.md
+      - Help:
+          - FAQ and troubleshooting: smart-comparison-table/help/faq.md
+          - Support: smart-comparison-table/help/support.md
+          - Changelog: smart-comparison-table/help/changelog.md
