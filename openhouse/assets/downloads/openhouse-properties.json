@@ -1,0 +1,1222 @@
+{
+  "name": "openhouse_properties",
+  "label": "Openhouse properties",
+  "useForPages": true,
+  "allowPublicApiAccess": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columns": [
+    {
+      "name": "status",
+      "label": "Status",
+      "type": "SELECT",
+      "options": [
+        {
+          "id": "1",
+          "name": "for_sale",
+          "label": "For sale",
+          "type": "option",
+          "order": 0
+        },
+        {
+          "id": "2",
+          "name": "for_rent",
+          "label": "For rent",
+          "type": "option",
+          "order": 1
+        },
+        {
+          "id": "3",
+          "name": "sold",
+          "label": "Sold",
+          "type": "option",
+          "order": 2
+        },
+        {
+          "id": "4",
+          "name": "under_offer",
+          "label": "Under offer",
+          "type": "option",
+          "order": 3
+        },
+        {
+          "id": "5",
+          "name": "coming_soon",
+          "label": "Coming soon",
+          "type": "option",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "name": "property_type",
+      "label": "Property type",
+      "type": "SELECT",
+      "options": [
+        {
+          "id": "1",
+          "name": "house",
+          "label": "House",
+          "type": "option",
+          "order": 0
+        },
+        {
+          "id": "2",
+          "name": "apartment",
+          "label": "Apartment",
+          "type": "option",
+          "order": 1
+        },
+        {
+          "id": "3",
+          "name": "townhouse",
+          "label": "Townhouse",
+          "type": "option",
+          "order": 2
+        },
+        {
+          "id": "4",
+          "name": "land",
+          "label": "Land",
+          "type": "option",
+          "order": 3
+        },
+        {
+          "id": "5",
+          "name": "office",
+          "label": "Office",
+          "type": "option",
+          "order": 4
+        },
+        {
+          "id": "6",
+          "name": "retail",
+          "label": "Retail",
+          "type": "option",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "name": "price",
+      "label": "Price",
+      "type": "NUMBER"
+    },
+    {
+      "name": "price_suffix",
+      "label": "After the price",
+      "type": "TEXT"
+    },
+    {
+      "name": "beds",
+      "label": "Bedrooms",
+      "type": "NUMBER"
+    },
+    {
+      "name": "baths",
+      "label": "Bathrooms",
+      "type": "NUMBER"
+    },
+    {
+      "name": "area",
+      "label": "Size",
+      "type": "NUMBER"
+    },
+    {
+      "name": "area_unit",
+      "label": "Size unit",
+      "type": "TEXT"
+    },
+    {
+      "name": "parking",
+      "label": "Parking spaces",
+      "type": "NUMBER"
+    },
+    {
+      "name": "year_built",
+      "label": "Year built",
+      "type": "NUMBER"
+    },
+    {
+      "name": "address",
+      "label": "Address",
+      "type": "TEXT"
+    },
+    {
+      "name": "city",
+      "label": "City",
+      "type": "TEXT"
+    },
+    {
+      "name": "neighborhood",
+      "label": "Neighborhood",
+      "type": "TEXT"
+    },
+    {
+      "name": "location",
+      "label": "Map location",
+      "type": "LOCATION"
+    },
+    {
+      "name": "summary",
+      "label": "Summary",
+      "type": "TEXT"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "RICHTEXT"
+    },
+    {
+      "name": "features",
+      "label": "Features",
+      "type": "TEXT"
+    },
+    {
+      "name": "main_image",
+      "label": "Main photo",
+      "type": "IMAGE"
+    },
+    {
+      "name": "photo_2",
+      "label": "Photo 2",
+      "type": "IMAGE"
+    },
+    {
+      "name": "photo_3",
+      "label": "Photo 3",
+      "type": "IMAGE"
+    },
+    {
+      "name": "photo_4",
+      "label": "Photo 4",
+      "type": "IMAGE"
+    },
+    {
+      "name": "photo_5",
+      "label": "Photo 5",
+      "type": "IMAGE"
+    },
+    {
+      "name": "photo_6",
+      "label": "Photo 6",
+      "type": "IMAGE"
+    },
+    {
+      "name": "floor_plan",
+      "label": "Floor plan",
+      "type": "IMAGE"
+    },
+    {
+      "name": "video_url",
+      "label": "Video URL",
+      "type": "URL"
+    },
+    {
+      "name": "badge",
+      "label": "Extra badge",
+      "type": "TEXT"
+    },
+    {
+      "name": "open_house",
+      "label": "Open house",
+      "type": "TEXT"
+    },
+    {
+      "name": "featured",
+      "label": "Featured",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "agent",
+      "label": "Agent (page path)",
+      "type": "TEXT"
+    }
+  ],
+  "rows": [
+    {
+      "path": "classic-porch-home-noe-valley",
+      "name": "Classic porch home",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "1",
+          "name": "for_sale"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 1250000,
+        "price_suffix": "",
+        "beds": 4,
+        "baths": 3,
+        "area": 2350,
+        "area_unit": "",
+        "parking": 2,
+        "year_built": 1998,
+        "address": "1458 Sanchez Street",
+        "city": "San Francisco",
+        "neighborhood": "Noe Valley",
+        "location": {
+          "type": "location",
+          "lat": 37.7502,
+          "long": -122.4295
+        },
+        "summary": "A light-filled family home with a wraparound porch, a big lawn and space for everyone.",
+        "description": "<p>A light-filled family home with a wraparound porch, a big lawn and space for everyone.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Wraparound porch, Garden, Fireplace, Hardwood floors, Garage, Home office",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-porch-white.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "Open house Sat 11–2",
+        "open_house": "Saturday Nov 7, 11 am to 2 pm",
+        "featured": 1,
+        "agent": "daniel-reyes",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "brick-family-house-westwood-park",
+      "name": "Brick family house",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "1",
+          "name": "for_sale"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 1795000,
+        "price_suffix": "",
+        "beds": 5,
+        "baths": 4,
+        "area": 3100,
+        "area_unit": "",
+        "parking": 2,
+        "year_built": 2006,
+        "address": "72 Lakeview Avenue",
+        "city": "San Francisco",
+        "neighborhood": "Westwood Park",
+        "location": {
+          "type": "location",
+          "lat": 37.7268,
+          "long": -122.457
+        },
+        "summary": "A solid brick home on a quiet, tree-lined street with a double garage and a sunny backyard.",
+        "description": "<p>A solid brick home on a quiet, tree-lined street with a double garage and a sunny backyard.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Double garage, Backyard, Fireplace, Walk-in closet, Laundry room",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-brick-suburban.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "New",
+        "open_house": "",
+        "featured": 1,
+        "agent": "sofia-marchetti",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "garden-cottage-bernal-heights",
+      "name": "Garden cottage",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "2",
+          "name": "for_rent"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 4200,
+        "price_suffix": "/month",
+        "beds": 3,
+        "baths": 2,
+        "area": 1450,
+        "area_unit": "",
+        "parking": 1,
+        "year_built": 1952,
+        "address": "318 Elm Court",
+        "city": "San Francisco",
+        "neighborhood": "Bernal Heights",
+        "location": {
+          "type": "location",
+          "lat": 37.7417,
+          "long": -122.4161
+        },
+        "summary": "A cozy wooden cottage with a private garden, minutes from Cortland Avenue.",
+        "description": "<p>A cozy wooden cottage with a private garden, minutes from Cortland Avenue.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Private garden, Fireplace, Pets allowed, Washer and dryer",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-cottage-dusk.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "",
+        "open_house": "",
+        "featured": 1,
+        "agent": "emma-collins",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "modern-pool-villa-sea-cliff",
+      "name": "Modern pool villa",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "4",
+          "name": "under_offer"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 3950000,
+        "price_suffix": "",
+        "beds": 5,
+        "baths": 5,
+        "area": 4200,
+        "area_unit": "",
+        "parking": 3,
+        "year_built": 2019,
+        "address": "9 Seacliff Drive",
+        "city": "San Francisco",
+        "neighborhood": "Sea Cliff",
+        "location": {
+          "type": "location",
+          "lat": 37.7875,
+          "long": -122.4895
+        },
+        "summary": "An architect-designed villa with an infinity pool and ocean views from every floor.",
+        "description": "<p>An architect-designed villa with an infinity pool and ocean views from every floor.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Infinity pool, Ocean views, Smart home, Wine cellar, Home cinema, Garage",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-modern-pool.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "",
+        "open_house": "",
+        "featured": 1,
+        "agent": "robert-hayes",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "shingle-family-home-pacific-heights",
+      "name": "Shingle family home",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "1",
+          "name": "for_sale"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 2450000,
+        "price_suffix": "",
+        "beds": 4,
+        "baths": 3,
+        "area": 2800,
+        "area_unit": "",
+        "parking": 1,
+        "year_built": 1925,
+        "address": "2210 Pacific Avenue",
+        "city": "San Francisco",
+        "neighborhood": "Pacific Heights",
+        "location": {
+          "type": "location",
+          "lat": 37.7935,
+          "long": -122.4344
+        },
+        "summary": "A charming shingle house with a front porch, palm trees and a beautifully kept garden.",
+        "description": "<p>A charming shingle house with a front porch, palm trees and a beautifully kept garden.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Front porch, Garden, Fireplace, Renovated kitchen, Garage",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-grey-family.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "",
+        "open_house": "Sunday Nov 8, 1 pm to 4 pm",
+        "featured": 1,
+        "agent": "sofia-marchetti",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "contemporary-townhouse-twin-peaks",
+      "name": "Contemporary townhouse",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "2",
+          "name": "for_rent"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "3",
+          "name": "townhouse"
+        },
+        "price": 6800,
+        "price_suffix": "/month",
+        "beds": 3,
+        "baths": 3,
+        "area": 1900,
+        "area_unit": "",
+        "parking": 1,
+        "year_built": 2017,
+        "address": "61 Clarendon Avenue",
+        "city": "San Francisco",
+        "neighborhood": "Twin Peaks",
+        "location": {
+          "type": "location",
+          "lat": 37.7577,
+          "long": -122.452
+        },
+        "summary": "A contemporary wood and glass townhouse with city views and a private roof terrace.",
+        "description": "<p>A contemporary wood and glass townhouse with city views and a private roof terrace.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Roof terrace, City views, Garage, Air conditioning, Furnished",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-modern-townhouse.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "New",
+        "open_house": "",
+        "featured": 1,
+        "agent": "emma-collins",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "white-villa-with-pool-presidio-heights",
+      "name": "White villa with pool",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "1",
+          "name": "for_sale"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 3200000,
+        "price_suffix": "",
+        "beds": 4,
+        "baths": 4,
+        "area": 3400,
+        "area_unit": "",
+        "parking": 2,
+        "year_built": 2015,
+        "address": "3550 Washington Street",
+        "city": "San Francisco",
+        "neighborhood": "Presidio Heights",
+        "location": {
+          "type": "location",
+          "lat": 37.7899,
+          "long": -122.4547
+        },
+        "summary": "A crisp white villa with a heated pool, a sun deck and generous living spaces.",
+        "description": "<p>A crisp white villa with a heated pool, a sun deck and generous living spaces.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Heated pool, Sun deck, Outdoor kitchen, Smart home, Garage",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-white-villa.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "",
+        "open_house": "",
+        "featured": 0,
+        "agent": "robert-hayes",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "modern-garden-house-st-francis-wood",
+      "name": "Modern garden house",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "5",
+          "name": "coming_soon"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 2750000,
+        "price_suffix": "",
+        "beds": 4,
+        "baths": 3,
+        "area": 2900,
+        "area_unit": "",
+        "parking": 2,
+        "year_built": 2021,
+        "address": "120 San Leandro Way",
+        "city": "San Francisco",
+        "neighborhood": "St. Francis Wood",
+        "location": {
+          "type": "location",
+          "lat": 37.7351,
+          "long": -122.4686
+        },
+        "summary": "A calm, modern home with floor-to-ceiling glass and a landscaped garden with a plunge pool.",
+        "description": "<p>A calm, modern home with floor-to-ceiling glass and a landscaped garden with a plunge pool.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Plunge pool, Landscaped garden, Solar panels, EV charger",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-modern-white.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "",
+        "open_house": "",
+        "featured": 0,
+        "agent": "sofia-marchetti",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "palm-pool-house-forest-hill",
+      "name": "Palm pool house",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "3",
+          "name": "sold"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 2100000,
+        "price_suffix": "",
+        "beds": 4,
+        "baths": 3,
+        "area": 2600,
+        "area_unit": "",
+        "parking": 2,
+        "year_built": 2008,
+        "address": "45 Magellan Avenue",
+        "city": "San Francisco",
+        "neighborhood": "Forest Hill",
+        "location": {
+          "type": "location",
+          "lat": 37.748,
+          "long": -122.464
+        },
+        "summary": "A sunny family home with a pool, palm trees and a large covered terrace.",
+        "description": "<p>A sunny family home with a pool, palm trees and a large covered terrace.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Pool, Covered terrace, Guest suite, Garage",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-palm-pool.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "",
+        "open_house": "",
+        "featured": 0,
+        "agent": "daniel-reyes",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "glass-pool-residence-sea-cliff",
+      "name": "Glass pool residence",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "1",
+          "name": "for_sale"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "1",
+          "name": "house"
+        },
+        "price": 5450000,
+        "price_suffix": "",
+        "beds": 6,
+        "baths": 6,
+        "area": 5200,
+        "area_unit": "",
+        "parking": 4,
+        "year_built": 2022,
+        "address": "28 Scenic Way",
+        "city": "San Francisco",
+        "neighborhood": "Sea Cliff",
+        "location": {
+          "type": "location",
+          "lat": 37.7862,
+          "long": -122.492
+        },
+        "summary": "A striking glass residence with a lap pool, a gym and a guest house.",
+        "description": "<p>A striking glass residence with a lap pool, a gym and a guest house.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Lap pool, Gym, Guest house, Elevator, Ocean views, Wine cellar",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/home-glass-pool.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "Luxury",
+        "open_house": "",
+        "featured": 0,
+        "agent": "robert-hayes",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "bright-loft-apartment-soma",
+      "name": "Bright loft apartment",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "2",
+          "name": "for_rent"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "2",
+          "name": "apartment"
+        },
+        "price": 3600,
+        "price_suffix": "/month",
+        "beds": 2,
+        "baths": 1,
+        "area": 980,
+        "area_unit": "",
+        "parking": 0,
+        "year_built": 2012,
+        "address": "455 Folsom Street, Unit 12B",
+        "city": "San Francisco",
+        "neighborhood": "Downtown",
+        "location": {
+          "type": "location",
+          "lat": 37.7869,
+          "long": -122.3946
+        },
+        "summary": "A bright loft with high ceilings, big windows and a building gym and doorman.",
+        "description": "<p>A bright loft with high ceilings, big windows and a building gym and doorman.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Doorman, Gym, Elevator, Bike storage, Pets allowed",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/apt-bright-loft.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "",
+        "open_house": "",
+        "featured": 0,
+        "agent": "emma-collins",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-gallery-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    },
+    {
+      "path": "city-flat-with-balcony-midtown",
+      "name": "City flat with balcony",
+      "values": {
+        "status": {
+          "type": "option",
+          "id": "1",
+          "name": "for_sale"
+        },
+        "property_type": {
+          "type": "option",
+          "id": "2",
+          "name": "apartment"
+        },
+        "price": 895000,
+        "price_suffix": "",
+        "beds": 2,
+        "baths": 2,
+        "area": 1120,
+        "area_unit": "",
+        "parking": 1,
+        "year_built": 2010,
+        "address": "1200 Market Street, Unit 7",
+        "city": "San Francisco",
+        "neighborhood": "Midtown",
+        "location": {
+          "type": "location",
+          "lat": 37.7775,
+          "long": -122.4165
+        },
+        "summary": "A stylish two-bedroom flat with a balcony, in a modern building close to everything.",
+        "description": "<p>A stylish two-bedroom flat with a balcony, in a modern building close to everything.</p><p>The main floor opens into a bright living and dining space with tall windows and a modern kitchen with an island, stone counters and quality appliances. Bedrooms sit quietly upstairs, including a main suite with a walk-in closet and a spa-style bathroom.</p><p>Outside, there is room to relax and entertain, and the neighborhood's cafés, parks and schools are a short walk away.</p>",
+        "features": "Balcony, Elevator, In-unit laundry, Parking",
+        "main_image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/apt-city-flat.jpg",
+          "width": 1200,
+          "height": 850
+        },
+        "floor_plan": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/floor-plan.png",
+          "width": 1400,
+          "height": 1000
+        },
+        "video_url": "",
+        "badge": "Price reduced",
+        "open_house": "",
+        "featured": 0,
+        "agent": "daniel-reyes",
+        "photo_2": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-apartment-dining.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_3": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-open-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_4": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-kitchen-white.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_5": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-plant-living.jpg",
+          "width": 1600,
+          "height": 1067
+        },
+        "photo_6": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/int-teal-lounge.jpg",
+          "width": 1600,
+          "height": 1067
+        }
+      }
+    }
+  ]
+}

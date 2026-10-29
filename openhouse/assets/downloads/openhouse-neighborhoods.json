@@ -1,0 +1,126 @@
+{
+  "name": "openhouse_neighborhoods",
+  "label": "Openhouse neighborhoods",
+  "useForPages": true,
+  "allowPublicApiAccess": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columns": [
+    {
+      "name": "image",
+      "label": "Photo",
+      "type": "IMAGE"
+    },
+    {
+      "name": "summary",
+      "label": "Summary",
+      "type": "TEXT"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "RICHTEXT"
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "type": "LOCATION"
+    },
+    {
+      "name": "highlights",
+      "label": "Highlights",
+      "type": "TEXT"
+    },
+    {
+      "name": "sort_order",
+      "label": "Sort order",
+      "type": "NUMBER"
+    }
+  ],
+  "rows": [
+    {
+      "path": "sea-cliff",
+      "name": "Sea Cliff",
+      "values": {
+        "image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/area-marina.jpg",
+          "width": 900,
+          "height": 1100
+        },
+        "summary": "Ocean views, quiet streets and the Golden Gate on your doorstep.",
+        "description": "<p>Sea Cliff is one of the most private corners of the city, with grand homes above the ocean, China Beach below and the Golden Gate Bridge in view.</p>",
+        "location": {
+          "type": "location",
+          "lat": 37.7875,
+          "long": -122.4895
+        },
+        "highlights": "Ocean views, Beach nearby, Quiet and private",
+        "sort_order": 1
+      }
+    },
+    {
+      "path": "noe-valley",
+      "name": "Noe Valley",
+      "values": {
+        "image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/area-midtown.jpg",
+          "width": 900,
+          "height": 1100
+        },
+        "summary": "Family friendly, sunny and full of local shops.",
+        "description": "<p>Noe Valley is known for its sunny weather, Victorian homes and the cafés and boutiques of 24th Street, with parks and good schools close by.</p>",
+        "location": {
+          "type": "location",
+          "lat": 37.7502,
+          "long": -122.4337
+        },
+        "highlights": "Good schools, Local shops, Sunny weather",
+        "sort_order": 2
+      }
+    },
+    {
+      "path": "pacific-heights",
+      "name": "Pacific Heights",
+      "values": {
+        "image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/area-financial-district.jpg",
+          "width": 900,
+          "height": 1100
+        },
+        "summary": "Classic homes, city views and leafy parks.",
+        "description": "<p>Pacific Heights combines historic architecture with sweeping views of the bay, two large parks and the shops of Fillmore Street.</p>",
+        "location": {
+          "type": "location",
+          "lat": 37.7925,
+          "long": -122.4382
+        },
+        "highlights": "Bay views, Parks, Historic homes",
+        "sort_order": 3
+      }
+    },
+    {
+      "path": "downtown",
+      "name": "Downtown",
+      "values": {
+        "image": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/area-downtown.jpg",
+          "width": 900,
+          "height": 1100
+        },
+        "summary": "City living close to work, theaters and the best transit.",
+        "description": "<p>Downtown puts offices, shopping and entertainment on your doorstep, with modern apartments and great transit links.</p>",
+        "location": {
+          "type": "location",
+          "lat": 37.788,
+          "long": -122.4074
+        },
+        "highlights": "Transit hub, Shopping, Nightlife",
+        "sort_order": 4
+      }
+    }
+  ]
+}
