@@ -1,0 +1,137 @@
+{
+  "name": "openhouse_agents",
+  "label": "Openhouse agents",
+  "useForPages": true,
+  "allowPublicApiAccess": false,
+  "allowChildTables": false,
+  "enableChildTablePages": false,
+  "columns": [
+    {
+      "name": "role",
+      "label": "Role",
+      "type": "TEXT"
+    },
+    {
+      "name": "photo",
+      "label": "Portrait",
+      "type": "IMAGE"
+    },
+    {
+      "name": "phone",
+      "label": "Phone",
+      "type": "TEXT"
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "type": "TEXT"
+    },
+    {
+      "name": "bio",
+      "label": "Bio",
+      "type": "RICHTEXT"
+    },
+    {
+      "name": "languages",
+      "label": "Languages",
+      "type": "TEXT"
+    },
+    {
+      "name": "areas",
+      "label": "Areas served",
+      "type": "TEXT"
+    },
+    {
+      "name": "meeting_link",
+      "label": "Meeting link",
+      "type": "URL"
+    },
+    {
+      "name": "sort_order",
+      "label": "Sort order",
+      "type": "NUMBER"
+    }
+  ],
+  "rows": [
+    {
+      "path": "sofia-marchetti",
+      "name": "Sofia Marchetti",
+      "values": {
+        "role": "Founder and broker",
+        "photo": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/agent-sofia-marchetti.jpg",
+          "width": 700,
+          "height": 840
+        },
+        "phone": "+1 (555) 014-2291",
+        "email": "sofia@example.com",
+        "bio": "<p>Sofia founded Openhouse in 2009 after a decade with a large brokerage. She has sold more than 400 homes across the city and still answers her own phone.</p>",
+        "languages": "English, Italian",
+        "areas": "Pacific Heights, Marina",
+        "meeting_link": "",
+        "sort_order": 1
+      }
+    },
+    {
+      "path": "daniel-reyes",
+      "name": "Daniel Reyes",
+      "values": {
+        "role": "Senior agent, Noe Valley",
+        "photo": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/agent-daniel-reyes.jpg",
+          "width": 700,
+          "height": 840
+        },
+        "phone": "+1 (555) 014-2292",
+        "email": "daniel@example.com",
+        "bio": "<p>Daniel grew up in Noe Valley and knows every block of it. Buyers love his honest advice; sellers love his negotiation.</p>",
+        "languages": "English, Spanish",
+        "areas": "Noe Valley, Bernal Heights",
+        "meeting_link": "",
+        "sort_order": 2
+      }
+    },
+    {
+      "path": "emma-collins",
+      "name": "Emma Collins",
+      "values": {
+        "role": "Rentals specialist",
+        "photo": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/agent-emma-collins.jpg",
+          "width": 700,
+          "height": 840
+        },
+        "phone": "+1 (555) 014-2293",
+        "email": "emma@example.com",
+        "bio": "<p>Emma looks after our rentals and relocations, from video tours for clients abroad to lease signing on move-in day.</p>",
+        "languages": "English, French",
+        "areas": "Downtown, Marina",
+        "meeting_link": "",
+        "sort_order": 3
+      }
+    },
+    {
+      "path": "robert-hayes",
+      "name": "Robert Hayes",
+      "values": {
+        "role": "Luxury homes",
+        "photo": {
+          "type": "image",
+          "url": "https://3428146.fs1.hubspotusercontent-na1.net/hubfs/3428146/openhouse-demo/photos/agent-robert-hayes.jpg",
+          "width": 700,
+          "height": 840
+        },
+        "phone": "+1 (555) 014-2294",
+        "email": "robert@example.com",
+        "bio": "<p>Robert specializes in architect-designed and luxury homes, with a discreet, private approach for high-profile clients.</p>",
+        "languages": "English",
+        "areas": "Sea Cliff, Twin Peaks",
+        "meeting_link": "",
+        "sort_order": 4
+      }
+    }
+  ]
+}

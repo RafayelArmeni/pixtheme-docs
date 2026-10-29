@@ -82,6 +82,28 @@ nav:
           - FAQ and troubleshooting: event-time/help/faq.md
           - Support: event-time/help/support.md
           - Changelog: event-time/help/changelog.md
+  - Openhouse:
+      - Welcome to Openhouse: openhouse/index.md
+      - Getting started:
+          - Install the theme: openhouse/getting-started/install.md
+          - Set up your listings (HubDB): openhouse/getting-started/hubdb.md
+          - Build your site: openhouse/getting-started/build-your-site.md
+          - Header, footer and menus: openhouse/getting-started/header-and-footer.md
+          - Forms and leads: openhouse/getting-started/forms-and-leads.md
+      - Customize:
+          - Theme settings: openhouse/customize/theme-settings.md
+          - Section style and the Style tab: openhouse/customize/style-tab.md
+          - Ready-made sections: openhouse/customize/sections.md
+      - Pages:
+          - Page templates: openhouse/pages/page-templates.md
+          - Blog: openhouse/pages/blog.md
+          - System pages: openhouse/pages/system-pages.md
+      - Modules:
+          - All modules: openhouse/modules/index.md
+      - Help:
+          - FAQ and troubleshooting: openhouse/help/faq.md
+          - Support: openhouse/help/support.md
+          - Changelog: openhouse/help/changelog.md
   - Smart Comparison Table:
       - Welcome to Smart Comparison Table: smart-comparison-table/index.md
       - Getting started:

@@ -18,6 +18,14 @@ Setup guides for Pixtheme themes and modules on the HubSpot CMS.
 
     [Read the docs →](event-time/index.md)
 
+-   **[Openhouse](openhouse/index.md)**
+
+    ---
+
+    A real estate website with HubDB listings, agents, neighborhoods and lead forms.
+
+    [Read the docs →](openhouse/index.md)
+
 -   **[Smart Comparison Table](smart-comparison-table/index.md)**
 
     ---
