@@ -117,3 +117,15 @@ nav:
           - FAQ and troubleshooting: smart-comparison-table/help/faq.md
           - Support: smart-comparison-table/help/support.md
           - Changelog: smart-comparison-table/help/changelog.md
+  - HubDB Lookup:
+      - Welcome to HubDB Lookup: hubdb-lookup/index.md
+      - Getting started:
+          - Install the app: hubdb-lookup/getting-started/install.md
+          - Add the tools to an agent: hubdb-lookup/getting-started/add-to-agent.md
+      - Guides:
+          - How searching works: hubdb-lookup/guides/searching.md
+      - Help:
+          - FAQ and troubleshooting: hubdb-lookup/help/faq.md
+          - Support: hubdb-lookup/help/support.md
+          - Changelog: hubdb-lookup/help/changelog.md
+          - Privacy policy: hubdb-lookup/privacy.md

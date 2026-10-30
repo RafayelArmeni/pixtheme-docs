@@ -34,6 +34,14 @@ Setup guides for Pixtheme themes and modules on the HubSpot CMS.
 
     [Read the docs →](smart-comparison-table/index.md)
 
+-   **[HubDB Lookup](hubdb-lookup/index.md)**
+
+    ---
+
+    Breeze agent tools that answer questions from your HubDB tables.
+
+    [Read the docs →](hubdb-lookup/index.md)
+
 </div>
 
 Need help? Email [support@pixtheme.com](mailto:support@pixtheme.com).
