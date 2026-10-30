@@ -4,6 +4,14 @@
 
     Check that the data is in a **published** HubDB table. Draft tables and unpublished changes aren't visible. Clear table and column names help the agent pick the right table, and a line in the agent's instructions helps too, for example "Product prices are in the HubDB table Products".
 
+??? question "Install fails with \"your account lacks access to the required scopes [hubdb.rows.read, hubdb.tables.read]\"."
+
+    The HubSpot account doesn't have HubDB, or your user can't grant access to it. HubDB comes with **Content Hub Professional or Enterprise** (or CMS Hub Professional or Enterprise). Check that **Content › HubDB** opens in the account. If it does, ask a Super Admin to install the app, or to give your user HubDB and app install permissions.
+
+??? question "Install fails with \"the app developer has not signed the acceptable use policy\"."
+
+    This was a setup step on our side and is fixed. If you still see it, email [support@pixtheme.com](mailto:support@pixtheme.com).
+
 ??? question "The agent shows \"HubDB Lookup is not connected to this HubSpot account\"."
 
     The app isn't installed in this account, or it was uninstalled. [Install the app](../getting-started/install.md) again.
